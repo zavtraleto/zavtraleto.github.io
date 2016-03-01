@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="textAdventureApp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Text Adventure</title>
+		<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+		<link href="stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="stylesheets/main.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body role="document" ng-controller="textAdventureCtrl">
+		<div class="container">
+			<h1>
+				{{adventure.adventureName}}
+			</h1>
+			</br>
+			<p ng-show="adventure.currentPath == 0">
+				{{adventure.adventureDescription}}
+			</p>
+			<p>
+				{{adventure.currentPathDescription}}
+			</p>
+			<ul>
+				<li ng-show="adventure.playerAlive" ng-hide="adventure.hasWon" ng-repeat="path in adventure.currentPaths">
+					<span ng-click="pathClick(path.id)">
+						{{path.pathDescription}}
+					</span>
+				</li>
+			</ul>
+			<button type="button" ng-hide="adventure.playerAlive" ng-show="adventure.hasWon" ng-click="startOver()">
+				Start Over
+			</button>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="javascripts/bootstrap.min.js"></script>
+		<script src="javascripts/angular.min.js"></script>
+		<script src="javascripts/main.js"></script>
+	</body>
+</html>
