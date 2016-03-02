@@ -1,37 +1,29 @@
 {
-	"adventureName": "Dragons And Tears",
-	"adventureDescription": "You awaken to find yourself on cold flagstone. As you stand up you notice that the small room is lit by two torches. To the north there is a door, to the south a hole in the wall. What do you do?",
+	"adventureName": "С 8 марта, любимая",
+	"adventureDescription": "Доброе утро, солнышко. Поздравляю тебя с праздником, с главным весенним днём, ты у меня самая жественная, красивая, умная и расчудесная. Ну и конечно же любимая, моя девочка! И тут наступает самое интересное, тебе нужно выбрать, ну а что ты получишь - зависит от твоего выбора! Итак, что будем делать первым делом?",
 	"winnngRound": 13,
 	"paths": [
 		{
 			"id": 1,
 			"round": 1,
-			"pathDescription": "OPEN THE DOOR",
-			"pathResult": "You cautiously open the door and start to walk forward when you foot catches a loose flagstone. You fall and break your neck. You are dead.",
+			"pathDescription": "Проснуться - улбынуться",
+			"pathResult": "Конечно, с твоей улыбкой ничто не сравниться, спасибо тебе за неё, но этот выбор очень условен и он возвращает нас к первому пункту путешествия.",
 			"goToNextRound": false,
 			"death": true
 		},
 		{
 			"id": 2,
 			"round": 1,
-			"pathDescription": "TAKE A TORCH",
-			"pathResult": "You lift the torch out of the wall sconce and open the door. Before you stretches a dark corridor that fades into inky, tenebrous, blackness. You walk for what feels like an eternity before you realize that your torch is beginning to burn out. What do you do?",
+			"pathDescription": "Позавтракать",
+			"pathResult": "Конечно, любой хороший день начинается с завтрака, а этот день начинается с завтрака от твоего мужчины, что же ты выберешь?",
 			"goToNextRound": true,
 			"death": false
 		},
 		{
 			"id": 3,
 			"round": 1,
-			"pathDescription": "GO THROUGH THE HOLE",
-			"pathResult": "You're not big enough to go through the hole. What would you like to do?",
-			"goToNextRound": false,
-			"death": false
-		},
-		{
-			"id": 4,
-			"round": 1,
-			"pathDescription": "TAKE A NAP",
-			"pathResult": "You awaken to find yourself on cold flagstone. As you stand up you notice that the small room is lit by two torches. To the north there is a door, to the south a hole in the wall. What do you do?",
+			"pathDescription": "Попросить о поцелуе!",
+			"pathResult": "Конечно, моя дорогая",
 			"goToNextRound": false,
 			"death": false
 		},
