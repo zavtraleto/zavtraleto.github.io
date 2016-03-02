@@ -54,24 +54,24 @@
 		{
 			"id": 8,
 			"round": 3,
-			"pathDescription": "KEEP WALKING",
-			"pathResult": "As you walk towards the indigo glow, the corridor gives way to a larger cavern, and the source of the light becomes apparent...the room is lit by a massive luminescent lake. Lapping at the lake is a unicorn. What do you do?",	
+			"pathDescription": "Ну-с, теперь пора вставать!",
+			"pathResult": "Конечно пора, завтрак был хорош, но ведь ты не думала, что на этом всё закончится?",	
 			"goToNextRound": true,
 			"death": false
 		},
 		{
 			"id": 9,
 			"round": 3,
-			"pathDescription": "DRAW SWORD",
-			"pathResult": "You sense that an evil most evil is coming down the corridor. As you wait a loose flagstone falls from the ceiling. It lands on your head and breaks your neck. You are dead.",
+			"pathDescription": "Полежать",
+			"pathResult": "Конечно можно еще полежать, понежится в кроватке и вернуться к приключению чуточку позднее! Но обязательно вернутся",
 			"goToNextRound": false,
-			"death": true
+			"death": false
 		},
 		{
 			"id": 10,
 			"round": 3,
-			"pathDescription": "CAST A SPELL",
-			"pathResult": "You do not know magic. What would you like to do?",
+			"pathDescription": "5 минут объятий и поцелулей!",
+			"pathResult": "Ну конечно это не сдвинет нас ни на шаг в нашем приключении, но как же это приятно :)",
 			"goToNextRound": false,
 			"death": false
 		},
