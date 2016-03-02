@@ -30,26 +30,26 @@
 		{
 			"id": 5,
 			"round": 2,
-			"pathDescription": "KEEP WALKING",
-			"pathResult": "You press forward, praying to the 31 gods of Diaz that your torch won't go out. Fortunately, it doesn't. Ahead of you darkness gives way to light as a dull indigo glow illuminates the corridor up ahead. You hear the sound of a large rock grinding against stone. What do you do?",	
-			"goToNextRound": true,
+			"pathDescription": "Яблоки на снегу",
+			"pathResult": "Розовое на белом!",
+			"goToNextRound": false,
 			"death": false
 		},
 		{
 			"id": 6,
 			"round": 2,
-			"pathDescription": "SEARCH FOR SECRET DOORS",
-			"pathResult": "There are no secret doors. What would you like to do?",
-			"goToNextRound": false,
+			"pathDescription": "Блины с 'Капустой' и мороженым",
+			"pathResult": "Отличный выбор! Хотя это и не совсем капуста, но хотя бы мороженое оказалось настоящим. Ну а про блины ты, конечно, узнала заранее",	
+			"goToNextRound": true,
 			"death": false
 		},
 		{
 			"id": 7,
 			"round": 2,
-			"pathDescription": "RUN BACK TO GET THE OTHER TORCH",
-			"pathResult": "You start to desperately run back to the main room when your foot catches a loose flagstone. You fall and break your neck. You are dead.",
+			"pathDescription": "Яичница с колбасой",
+			"pathResult": "Я думаю многие одинокие мужчины начинают сегодняшний день именно с этого. Да хотя у них многие дни так начинаются",
 			"goToNextRound": false,
-			"death": true
+			"death": false
 		},
 		{
 			"id": 8,

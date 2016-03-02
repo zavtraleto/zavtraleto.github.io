@@ -1,7 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic);
+
 body {
 	padding-top: 70px;
 	padding-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+	color: #000;
 }
+.buttons{
+	margin: 5px 0;
+	padding: 10px 0;
+}
+
 .theme-dropdown .dropdown-menu {
 	position: static;
 	display: block;

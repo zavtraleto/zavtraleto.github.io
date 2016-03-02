@@ -28,7 +28,7 @@
 				{{adventure.currentPathDescription}}
 			</p>
 			<ul>
-				<li ng-show="adventure.playerAlive" ng-hide="adventure.hasWon" ng-repeat="path in adventure.currentPaths">
+				<li class="buttons" ng-show="adventure.playerAlive" ng-hide="adventure.hasWon" ng-repeat="path in adventure.currentPaths">
 					<span ng-click="pathClick(path.id)">
 						{{path.pathDescription}}
 					</span>
