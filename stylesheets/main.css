@@ -11,7 +11,9 @@ body {
 	margin: 5px 0;
 	padding: 10px 0;
 }
-
+h1{
+	color: #000;
+}
 .theme-dropdown .dropdown-menu {
 	position: static;
 	display: block;
