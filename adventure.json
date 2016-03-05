@@ -149,7 +149,7 @@
 		},
 		{
 			"id": 20,
-			"round": 4,
+			"round": 8,
 			"pathDescription": "Люблю тебя",
 			"pathResult": "Больше всех на свете, моё счастье",
 			"goToNextRound": true,
